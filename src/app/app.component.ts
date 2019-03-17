@@ -6,4 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
+  public userName: string = 'Administrator';
+  public personsList: any = [
+    {
+      name: 'John'
+    },
+    {
+      name: 'Alex'
+    },
+    {
+      name: 'Andy'
+    },
+  ];
 }
